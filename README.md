@@ -4,14 +4,13 @@
 
 2)Create a database with the name "registration".
 
-3)Create a table with the name "users" and it should contain 4 columns (id,username,email,password).
+3)Create a table with the name "person" and it should contain 4 columns (id,username,email,password).
                                              
                                              
                                              [OR]
 Run the code below in your sql shell for creation of table:
 
   CREATE TABLE `users` (
-              `id` int(11) NOT NULL AUTO_INCREMENT PRIMARY KEY,
               `username` varchar(100) NOT NULL,
               `email` varchar(100) NOT NULL,
               `password` varchar(100) NOT NULL
